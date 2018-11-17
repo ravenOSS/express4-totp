@@ -9,3 +9,5 @@ Move routes to file
 Review packages
 - thirty-two
 - connect-ensure-login
+- express-flash
+- express-session = needs session store instead of dev memory store

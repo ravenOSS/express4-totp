@@ -102,7 +102,7 @@ var app = express();
 // configure Express
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-app.engine('ejs', require('ejs-locals'));
+// app.engine('ejs', require('ejs'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(logger('dev'));
 
