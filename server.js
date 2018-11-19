@@ -1,7 +1,7 @@
 var express = require('express');
 var base32 = require('thirty-two');
 var bodyParser = require('body-parser');
-var cookieParser = require('cookie-parser');
+var cookieParser = require('cookie-parser'); // read docs. express-session conflict
 var flash = require('connect-flash');
 var loggedin = require('connect-ensure-login');
 var logger = require('morgan');
